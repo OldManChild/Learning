@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 3.0)
+project(HelloWorld)
+set(SOURCECODE src/helloworld.cpp src/hellogeek.cpp)
+include_directories(include)
+add_executable(${PROJECT_NAME} ${SOURCECODE})

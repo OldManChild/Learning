@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/hellogeek.h
+
+/Users/kobinabeecham/Coding/Learning/PRacticeCV/CMake/src/helloworld.cpp
+iostream
+-
+hellogeek.h
+/Users/kobinabeecham/Coding/Learning/PRacticeCV/CMake/src/hellogeek.h
+
