@@ -13,8 +13,8 @@ int main(int argCount, char** argValues)
 	cv::namedWindow ("OutputImage",cv::WINDOW_AUTOSIZE);
 
 	cv::imshow("InputImage", imageParameter);
-	cv::medianBlur(imageParameter,image2Output,5);
-	cv::medianBlur(image2Output,image2Output,5);
+	cv::pyrDown(imageParameter,image2Output);
+	//cv::medianBlur(image2Output,image2Output,5);
 	cv::imshow("OutputImage", image2Output);
 
 	cv::waitKey(0);
